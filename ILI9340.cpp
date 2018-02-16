@@ -261,7 +261,7 @@ void ILI9340::setRotation(int m) {
 	}
 }
 
-void ILI9340::invertDisplay(boolean i) {
+void ILI9340::invertDisplay(bool i) {
 	command(i ? ILI9340_INVON : ILI9340_INVOFF);
 }
 
