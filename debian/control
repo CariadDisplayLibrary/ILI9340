@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: ILI9340.h
-Description: ILI9340 driver for DisplayCore
+Description: ILI9340
  The ILI9340 is used by the Adafruit 2.2" TFT shields.
 
 
