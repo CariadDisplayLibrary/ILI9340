@@ -1,10 +1,10 @@
 #ifndef _ILI9340_H
 #define _ILI9340_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
-class ILI9340 : public DisplayCore {
+class ILI9340 : public Cariad {
     private:
         static const uint8_t ILI9340_NOP = 0x00;
         static const uint8_t ILI9340_SWRESET = 0x01;
